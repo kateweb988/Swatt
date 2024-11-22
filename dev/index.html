@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+	<title>SWATT</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/fav.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box q">
+						<a href="index.html" class="nav__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+						<ul class="nav__list q">
+							<li>
+								<a href="#about" class="go_to" data-i18n="menu1">
+									О токене
+								</a>
+							</li>
+							<li>
+								<a href="#income" class="go_to" data-i18n="menu2">
+									Доход
+								</a>
+							</li>
+							<li>
+								<a href="#info" class="go_to" data-i18n="menu3">
+									Выход
+								</a>
+							</li>
+							<li>
+								<a href="#energy" class="go_to" data-i18n="menu4">
+									Энергия
+								</a>
+							</li>
+							<li>
+								<a href="#doc" class="go_to" data-i18n="menu5">
+									Документы
+								</a>
+							</li>
+						</ul>
+						<div class="nav__content q">
+							<div class="nav__socials q">
+								<a href="#" target="_blank">
+									<img src="img/nav1.svg" alt="" class="svg">
+								</a>
+								<a href="#" target="_blank">
+									<img src="img/nav2.svg" alt="" class="svg">
+								</a>
+							</div>
+							<a href="#" class="nav__btn btn">
+								<span data-i18n="btn"> Купить токен SWATT</span> <img src="img/arr.svg" alt="" class="svg">
+							</a>
+							<div class="nav__language">
+								<div class="lang_select main_submenu">
+									<div class="lang_select--selected main_submenu--btn q">
+										<p data-i18n="text1">
+											Сменить язык
+										</p>
+										<img src="img/nav3.svg" alt="" class="svg">
+									</div>
+									<div class="main_submenu--list">
+										<p class="nav__title" data-i18n="text2">
+											Выберите язык
+										</p>
+										<ul id="language-list">
+											<li class="main_submenu--lnk" onclick="changeLanguage('ru')">
+												<img src="img/ros.svg" alt="">
+												<p data-i18n="rus">
+													Российский
+												</p>
+											</li>
+											<li data-lang="en" class="main_submenu--lnk" onclick="changeLanguage('en')">
+												<img src="img/lan1.svg" alt="">
+												<p data-i18n="text3">
+													Английский
+												</p>
+											</li>
+											<li data-lang="esp" class="main_submenu--lnk" onclick="changeLanguage('esp')">
+												<img src="img/lan2.svg" alt="">
+												<p data-i18n="text4">
+													Испанский
+												</p>
+											</li>
+											<li data-lang="fra" class="main_submenu--lnk" onclick="changeLanguage('fra')">
+												<img src="img/lan3.svg" alt="">
+												<p data-i18n="text5">
+													Французский
+												</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="header__wrap">
+					<div class="header__content">
+						<h1 data-i18n="title1">
+							SWATT - Сила Солнца в Каждом Токене
+						</h1>
+						<a href="#" class="header__btn btn">
+							<span data-i18n="btn"> Купить токен SWATT</span> <img src="img/arr.svg" alt="" class="svg">
+						</a>
+						<img src="img/hea.png" alt="" class="header__pic">
+
+						<div class="header__area">
+							<div class="header__copy">
+								<img src="img/hea2.svg" alt="">
+								<p>
+									0xE6e4D9E1ddd783b6BeEccC059ABc17be88EE1A03
+								</p>
+								<img src="img/copy.svg" alt="" class="svg">
+							</div>
+							<div class="notification" data-i18n="copy">Скопировано</div>
+						</div>
+						<p class="header__text" data-i18n="text6">
+							Токен SWATT представляет один ватт установленной солнечной мощности, обеспечивая прозрачный путь к
+							миру возобновляемой энергии.
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="menu-btn">
+		</div>
+		<div class="menu">
+			<div class="menu__top q">
+				<img src="img/logo2.svg" alt="" class="menu__logo">
+				<div class="menu__content q">
+					<div class="nav__socials q">
+						<a href="#" target="_blank">
+							<img src="img/nav1.svg" alt="" class="svg">
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/nav2.svg" alt="" class="svg">
+						</a>
+					</div>
+					<div class="nav__language">
+						<div class="lang_select main_submenu">
+							<div class="lang_select--selected main_submenu--btn q">
+								<p data-i18n="text1">
+									Сменить язык
+								</p>
+								<img src="img/nav3.svg" alt="" class="svg">
+							</div>
+							<div class="main_submenu--list">
+								<p class="nav__title" data-i18n="text2">
+									Выберите язык
+								</p>
+								<ul id="language-list">
+									<li class="main_submenu--lnk" onclick="changeLanguage('ru')">
+										<img src="img/ros.svg" alt="">
+										<p data-i18n="rus">
+											Российский
+										</p>
+									</li>
+									<li data-lang="en" class="main_submenu--lnk" onclick="changeLanguage('en')">
+										<img src="img/lan1.svg" alt="">
+										<p data-i18n="text3">
+											Английский
+										</p>
+									</li>
+									<li data-lang="esp" class="main_submenu--lnk" onclick="changeLanguage('esp')">
+										<img src="img/lan2.svg" alt="">
+										<p data-i18n="text4">
+											Испанский
+										</p>
+									</li>
+									<li data-lang="fra" class="main_submenu--lnk" onclick="changeLanguage('fra')">
+										<img src="img/lan3.svg" alt="">
+										<p data-i18n="text5">
+											Французский
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="menu__list">
+				<li>
+					<a href="#about" class="go_to" data-i18n="menu1">
+						О токене
+					</a>
+				</li>
+				<li>
+					<a href="#income" class="go_to" data-i18n="menu2">
+						Доход
+					</a>
+				</li>
+				<li>
+					<a href="#info" class="go_to" data-i18n="menu3">
+						Выход
+					</a>
+				</li>
+				<li>
+					<a href="#energy" class="go_to" data-i18n="menu4">
+						Энергия
+					</a>
+				</li>
+				<li>
+					<a href="#doc" class="go_to" data-i18n="menu5">
+						Документы
+					</a>
+				</li>
+			</ul>
+			<img src="img/menu.png" alt="" class="menu__pic">
+		</div>
+		<section class="about" id="about">
+			<div class="container">
+				<p class="sub" data-i18n="sub1">
+					О токене SWATT
+				</p>
+				<h2 data-i18n="title2">
+					Технология и бизнес-модель SWATT
+				</h2>
+				<p class="about__title" data-i18n="text7">
+					Это токен, который представляет собой один ватт установленной мощности солнечных панелей.
+				</p>
+				<a href="#" class="about__btn btn">
+					<span data-i18n="btn"> Купить токен SWATT</span> <img src="img/arr.svg" alt="" class="svg">
+				</a>
+				<div class="about__wrap">
+					<div class="about__item">
+						<p class="about__name" data-i18n="text8">
+							Инвестор покупает <br>
+							токены SWATT
+						</p>
+						<p class="about__text" data-i18n="text9">
+							Клиент получает доступ к уникальному активу в сфере солнечной энергетики
+						</p>
+						<img src="img/ab1.svg" alt="">
+					</div>
+					<div class="about__item">
+						<p class="about__name" data-i18n="text10">
+							Закрепление за установленной мощности
+						</p>
+						<p class="about__text" data-i18n="text11">
+							Каждый токен представляет собой долю в реальном активе – солнечной энергетике.
+						</p>
+						<img src="img/ab2.svg" alt="">
+					</div>
+					<div class="about__item">
+						<p class="about__name" data-i18n="text12">
+							Прибыль от продажи электроэнергии
+						</p>
+						<p class="about__text" data-i18n="text13">
+							Ваш вклад в устойчивое будущее: заработок на основе активного участия в экосистеме.
+						</p>
+						<img src="img/ab3.svg" alt="">
+					</div>
+				</div>
+				<div class="about__row q">
+					<div class="about__wrap">
+						<h3 data-i18n="text14">
+							Доход от солнечных ферм
+						</h3>
+						<p class="about__text" data-i18n="text15">
+							Инвестиционный фонд "ГринИнвест" инвестирует средства в покупку и установку солнечных панелей на
+							фермах. Солнечные фермы продают произведенную энергию, а фонд получает доход, который
+							распределяется между держателями токенов.
+						</p>
+					</div>
+					<div class="about__wrap">
+						<h3 data-i18n="text16">
+							Обеспечение токена
+						</h3>
+						<p class="about__text" data-i18n="text17">
+							Каждый токен SWATT обеспечен реально установленной мощностью солнечных ферм. Количество токенов
+							всегда равно общей мощности ферм, которые принадлежат фонду.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="income" id="income">
+			<div class="container">
+				<p class="sub" data-i18n="sub2">
+					Доход и Инвестирование
+				</p>
+				<h2 data-i18n="title3">
+					Пассивный доход для держателей токенов
+				</h2>
+				<p class="about__title" data-i18n="text18">
+					Владельцы токенов SWATT могут застейкать свои токены в инвестиционном фонде. Стейкинг — это процесс
+					"заморозки" токенов на определенный срок, в течение которого токены используются для поддержки работы
+					солнечных ферм.
+				</p>
+				<a href="#" class="about__btn btn">
+					<span data-i18n="btn"> Купить токен SWATT</span> <img src="img/arr.svg" alt="" class="svg">
+				</a>
+				<div class="income__box q">
+					<div class="income__info income__info_1">
+						<div class="income__item q">
+							<div class="income__content">
+								<h3 data-i18n="text19">
+									Покупка токенов
+								</h3>
+								<p data-i18n="text20">
+									Инвесторы покупают токены SWATT через инвестиционный фонд "ГринИнвест".
+								</p>
+							</div>
+							<img src="img/in1.svg" alt="">
+						</div>
+						<div class="income__item q">
+							<div class="income__content">
+								<h3 data-i18n="text21">
+									Стейкинг токенов
+								</h3>
+								<p data-i18n="text22">
+									Купленные токены застейкаются, что означает их участие в проекте и обеспечение производства
+									солнечной энергии.
+								</p>
+							</div>
+							<img src="img/in2.svg" alt="">
+						</div>
+						<div class="income__item q">
+							<div class="income__content">
+								<h3 data-i18n="text23">
+									Получение прибыли
+								</h3>
+								<p data-i18n="text24">
+									Держатели токенов получают прибыль в USDT, исходя из дохода от продажи солнечной энергии.
+								</p>
+							</div>
+							<img src="img/in3.svg" alt="">
+						</div>
+					</div>
+					<img src="img/in.svg" alt="" class="income__fig">
+					<div class="income__info income__info_2">
+						<div class="income__item q">
+							<div class="income__content">
+								<h3 data-i18n="text25">
+									Вывод прибыли
+								</h3>
+								<p data-i18n="text26">
+									Прибыль можно выводить на свой USDT-кошелек раз в день. Это обеспечивает гибкость и
+									доступность средств для инвесторов.
+								</p>
+							</div>
+							<img src="img/in4.svg" alt="">
+						</div>
+						<div class="income__item q">
+							<div class="income__content">
+								<h3 data-i18n="text27">
+									Преимущества стейкинга
+								</h3>
+								<p data-i18n="text28">
+									Регулярный доход от продажи солнечной энергии. Участие в экологически значимых проектах.
+								</p>
+							</div>
+							<img src="img/in5.svg" alt="">
+						</div>
+						<div class="income__item q">
+							<div class="income__content">
+								<h3 data-i18n="text29">
+									Распределение дохода
+								</h3>
+								<p data-i18n="text30">
+									Каждый держатель токенов получает прибыль от продажи энергии, произведенной солнечными
+									фермами. Доходность зависит от общего количества застейканных токенов и прибыли фермы.
+								</p>
+							</div>
+							<img src="img/in6.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="info" id="info">
+			<div class="container">
+				<div class="info__box q">
+					<img src="img/info.svg" alt="" class="info__pic">
+					<div class="info__content">
+						<div class="info__item">
+							<h3 data-i18n="text31">
+								Текущее состояние
+							</h3>
+							<p data-i18n="text32">
+								В настоящее время токен SWATT доступен для покупки только через инвестиционный фонд
+								"ГринИнвест". Это позволяет инвесторам первыми получить доступ к мощности солнечных ферм и
+								начать зарабатывать уже сейчас.
+							</p>
+						</div>
+						<div class="info__item">
+							<h3 data-i18n="text33">
+								Планы на листинг
+							</h3>
+							<p data-i18n="text34">
+								Когда 30% токенов будут распределены между инвесторами, SWATT будет залистин на публичные
+								криптовалютные биржи. Листинг на бирже откроет доступ к свободной торговле токенами и
+								дальнейшему росту их стоимости.
+							</p>
+						</div>
+						<div class="info__item">
+							<h3 data-i18n="text35">
+								Присоединяйтесь сейчас
+							</h3>
+							<p data-i18n="text36">
+								Получите токены первыми и станьте частью зеленой энергетики еще до выхода на биржи.
+							</p>
+							<a href="#" class="info__btn btn">
+								<span data-i18n="btn"> Купить токен SWATT</span> <img src="img/arr.svg" alt="" class="svg">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="energy" id="energy">
+			<div class="container">
+				<p class="sub" data-i18n="sub3">
+					Энергия, производимая одним токеном SWATT
+				</p>
+				<h2 data-i18n="title4">
+					Сколько вырабатывает один токен энергии
+				</h2>
+				<div class="energy__box q">
+					<div class="energy__item">
+						<div class="energy__content">
+							<p class="energy__name" data-i18n="text37">
+								Учёт коэффициента эффективности системы
+							</p>
+							<p class="energy__text" data-i18n="text38">
+								Реальные системы имеют потери из-за инверторов, проводки и других факторов. Предположим, что
+								общий
+								коэффициент эффективности составляет 80% (0,8).
+							</p>
+							<div class="energy__block">
+								<p data-i18n="text39">
+									Корректированная годовая выработка
+								</p>
+								<span data-i18n="text40">
+									3,285 кВт·ч × 0,8 = 2,628 кВт·ч в год
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="energy__item">
+						<div class="energy__content">
+							<p class="energy__name" data-i18n="text41">
+								Расчёт годовой <br> выработки электроэнергии
+							</p>
+							<p class="energy__text">
+								<span data-i18n="text42">
+									Общая продолжительность <br>
+									работы панели: </span>
+								<span data-i18n="span1">
+									8 часов × 1 = 8 эффективных часов <br>
+									2 часа × 0,5 = 1 эффективный час <br>
+									Итого: 8 + 1 = 9 эффективных часов
+								</span>
+							</p>
+							<p class="energy__text">
+								<span data-i18n="text43">
+									Годовая выработка:
+								</span>
+								<span data-i18n="span2">
+									1 Вт × 9 часов/день × 365 дней = 3 <br> 285 Вт·ч или 3,285 кВт·ч в год
+								</span>
+							</p>
+						</div>
+						<div class="energy__area">
+							<div class="energy__per energy__per_1">
+								<div data-i18n="text44">
+									2ч в день
+								</div>
+								<p data-i18n="text45">
+									Менее эффективные
+								</p>
+							</div>
+							<div class="energy__per energy__per_2">
+								<div data-i18n="text46">
+									8ч в день
+								</div>
+								<p data-i18n="text47">
+									Полезные
+								</p>
+							</div>
+							<img src="img/ener1.svg" alt="" class="energy__pic">
+						</div>
+					</div>
+					<div class="energy__item">
+						<div class="energy__content">
+							<p class="energy__name" data-i18n="text48">
+								Годовой доход от панели
+							</p>
+							<p class="energy__text">
+								<span data-i18n="text49">
+									Общий годовой доход:
+								</span>
+								<span data-i18n="span3">
+									2,628 кВт·ч × 0,259 доллара США/ <br> кВт·ч ≈ 0,68 доллара США в год
+								</span>
+							</p>
+							<img src="img/ener2.svg" alt="" class="energy__pic">
+						</div>
+						<div class="energy__area">
+							<div>
+								<span data-i18n="text50">
+									1 Вт
+								</span>
+								<p data-i18n="text51">
+									Мощность
+								</p>
+							</div>
+							<img src="img/ener3.svg" alt="" class="energy__pic">
+						</div>
+					</div>
+					<div class="energy__item">
+						<div class="energy__content">
+							<p class="energy__name" data-i18n="text52">
+								Стоимость электроэнергии
+							</p>
+							<p class="energy__text" data-i18n="text53">
+								По данным на март 2024 года, средняя стоимость электроэнергии для домохозяйств в Австралии
+								составляла 0,259 доллара <br>
+								США за кВт·ч.
+							</p>
+							<a href="#" class="energy__link" target="_blank">
+								<img src="img/link.svg" alt="" class="svg"> <span data-i18n="btn2"> Shielden Channel</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="doc" id="doc">
+			<div class="container">
+				<p class="sub" data-i18n="sub4">
+					Документация
+				</p>
+				<h2 data-i18n="title5">
+					Проектная информация
+				</h2>
+				<div class="doc__box q">
+					<a href="#" class="doc__item" download="">
+						<img src="img/save.svg" alt="" class="svg">
+						<p data-i18n="text54">
+							Why we need the project.pdf
+						</p>
+					</a>
+					<a href="#" class="doc__item" download="">
+						<img src="img/save.svg" alt="" class="svg">
+						<p data-i18n="text55">
+							Timeline and approvals.pdf
+						</p>
+					</a>
+					<a href="#" class="doc__item" download="">
+						<img src="img/save.svg" alt="" class="svg">
+						<p data-i18n="text56">
+							Sharing on the benefist
+						</p>
+					</a>
+					<a href="#" class="doc__item" download="">
+						<img src="img/save.svg" alt="" class="svg">
+						<p data-i18n="text57">
+							Temporary workers accommodation facility.pdf
+						</p>
+					</a>
+					<a href="#" class="doc__item" download="">
+						<img src="img/save.svg" alt="" class="svg">
+						<p data-i18n="text58">
+							Community Information Session - July 2024.pdf
+						</p>
+					</a>
+					<a href="#" class="doc__item" download="">
+						<img src="img/save.svg" alt="" class="svg">
+						<p data-i18n="text59">
+							Project Update- February 2023.pfg
+						</p>
+					</a>
+					<a href="#" class="doc__item" download="">
+						<img src="img/save.svg" alt="" class="svg">
+						<p data-i18n="text60">
+							EIS Project Update- October 2022
+						</p>
+					</a>
+					<a href="#" class="doc__item" download="">
+						<img src="img/save.svg" alt="" class="svg">
+						<p data-i18n="text61">
+							Project Update- October 2024- Modification Application
+						</p>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="prog" id="prog">
+			<div class="container">
+				<h2 data-i18n="title6">
+					Социальная инвестиционная программа
+				</h2>
+				<div class="accordeon">
+					<div class="accordeon-container">
+						<li class="accordeon__item">
+							<div class="accordeon__button closed" data-i18n="text62">Planning and Environment Documents</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									<p class="panel__info" data-i18n="text63">
+										Solar energy is a clean, sustainable energy source that reduces carbon emissions, reduces
+										energy costs and provides energy independence.
+									</p>
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed" data-i18n="text64">Planning and Environment Documents</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									<p class="panel__info" data-i18n="text65">
+										Solar energy is a clean, sustainable energy source that reduces carbon emissions, reduces
+										energy costs and provides energy independence.
+									</p>
+								</li>
+							</ul>
+						</li>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__box">
+					<div class="menu-btn2">
+						<img src="img/ff.svg" alt="">
+					</div>
+					<img src="img/f-logo.svg" alt="" class="footer__logo">
+					<div class="footer__row q">
+						<ul>
+							<li>
+								<a href="#about" class="go_to" data-i18n="menu1">
+									О токене
+								</a>
+							</li>
+							<li>
+								<a href="#income" class="go_to" data-i18n="menu2">
+									Доход
+								</a>
+							</li>
+							<li>
+								<a href="#info" class="go_to" data-i18n="menu3">
+									Выход
+								</a>
+							</li>
+							<li>
+								<a href="#energy" class="go_to" data-i18n="menu4">
+									Энергия
+								</a>
+							</li>
+							<li>
+								<a href="#doc" class="go_to" data-i18n="menu5">
+									Документы
+								</a>
+							</li>
+						</ul>
+						<div class="footer__socials q">
+							<a href="#" target="_blank">
+								<img src="img/f1.svg" alt="" class="svg">
+							</a>
+							<a href="#" target="_blank">
+								<img src="img/f2.svg" alt="" class="svg">
+							</a>
+						</div>
+					</div>
+					<p class="footer__text" data-i18n="text66">
+						SWATT признает важность устойчивого развития и защиты окружающей среды. Мы уважаем традиционные
+						практики и знания коренных народов, которые посвящены заботе об этой земле. Наша миссия заключается в
+						том, чтобы способствовать инвестированию в солнечную энергию, обеспечивая чистое и устойчивое будущее
+						для всех сообществ. Мы отмечаем вклад коренных народов в охрану природы и поддерживаем культурное
+						наследие аборигенных сообществ вместе с нашей целью трансформации энергетической отрасли.
+					</p>
+					<p class="footer__info">
+						<span data-i18n="text67">
+							Copyright © 2024 SWATT. Все права защищены. - ABN 57 123 456 789 -
+						</span>
+						<a href="#" target="_blank" data-i18n="link1">Политика
+							конфиденциальности</a> <span data-i18n="text68" class="mob"> — </span>
+						<a href="#" target="_blank" data-i18n="link2">Условия использования</a>
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="js/all.js"></script>
+
+</body>
+
+</html>

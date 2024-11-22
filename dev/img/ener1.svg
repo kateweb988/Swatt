@@ -1,0 +1,94 @@
+<svg width="536" height="422" viewBox="0 0 536 422" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect opacity="0.9" width="536" height="422" rx="22" fill="white"/>
+<rect x="1.5" y="159.5" width="534" height="1" stroke="#D9D9D9" stroke-dasharray="10 10"/>
+<rect x="25.5" y="174.5" width="207" height="165" rx="11.5" fill="#FBFBFB" stroke="url(#paint0_linear_3_1454)"/>
+<mask id="mask0_3_1454" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="26" y="175" width="206" height="164">
+<rect x="26" y="175" width="206" height="164" rx="11" fill="#FBFBFB"/>
+</mask>
+<g mask="url(#mask0_3_1454)">
+<rect width="230.497" height="463.818" transform="translate(24.8862 62)" fill="#FBFBFB"/>
+<line x1="25.1465" y1="61.5731" x2="233.473" y2="188.601" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="73.6013" x2="233.473" y2="200.63" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="85.6295" x2="233.473" y2="212.658" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="97.6577" x2="233.473" y2="224.686" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="109.686" x2="233.473" y2="236.714" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="121.714" x2="233.473" y2="248.742" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="133.742" x2="233.473" y2="260.771" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="145.771" x2="233.473" y2="272.799" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="157.799" x2="233.473" y2="284.827" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="169.827" x2="233.473" y2="296.855" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="181.855" x2="233.473" y2="308.883" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="193.883" x2="233.473" y2="320.912" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="205.912" x2="233.473" y2="332.94" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="217.94" x2="233.473" y2="344.968" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="229.968" x2="233.473" y2="356.996" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="241.996" x2="233.473" y2="369.024" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="254.024" x2="233.473" y2="381.053" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="266.053" x2="233.473" y2="393.081" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="278.081" x2="233.473" y2="405.109" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="290.109" x2="233.473" y2="417.137" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="302.137" x2="233.473" y2="429.165" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="314.165" x2="233.473" y2="441.194" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="326.194" x2="233.473" y2="453.222" stroke="#B7B7B7"/>
+<line x1="25.1465" y1="338.222" x2="233.473" y2="465.25" stroke="#B7B7B7"/>
+</g>
+<rect x="87" y="118" width="85" height="31" rx="15.5" fill="#221F22"/>
+<rect x="249.5" y="174.5" width="262" height="165" rx="11.5" fill="#FBFBFB" stroke="url(#paint1_linear_3_1454)"/>
+<mask id="mask1_3_1454" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="250" y="175" width="261" height="164">
+<rect x="250.5" y="175.5" width="260" height="163" rx="10.5" fill="#FBFBFB" stroke="url(#paint2_linear_3_1454)"/>
+</mask>
+<g mask="url(#mask1_3_1454)">
+<rect x="249.5" y="30.5" width="262" height="322" fill="#FBFBFB"/>
+<rect x="249.5" y="30.5" width="262" height="322" stroke="url(#paint3_linear_3_1454)"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 30)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 40.3058)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 50.6117)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 60.9176)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 71.2234)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 81.5293)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 91.8352)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 102.141)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 112.447)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 122.753)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 133.059)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 143.365)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 153.67)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 163.976)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 174.282)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 184.588)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 194.894)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 205.2)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 215.505)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 225.811)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 236.117)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 246.423)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 256.729)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 267.035)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 277.341)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 287.647)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 297.952)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 308.258)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 318.564)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 328.87)" stroke="#F49F22"/>
+<line y1="-0.5" x2="307.486" y2="-0.5" transform="matrix(0.855325 0.518092 -0.523126 0.852256 249 339.176)" stroke="#F49F22"/>
+</g>
+<rect x="307" y="54" width="148" height="95" rx="16" fill="#F49F22"/>
+<defs>
+<linearGradient id="paint0_linear_3_1454" x1="129" y1="174" x2="129" y2="340" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="0.25" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_3_1454" x1="380.5" y1="174" x2="380.5" y2="340" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F49F22"/>
+<stop offset="0.25" stop-color="#F49F22" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_3_1454" x1="380.5" y1="175" x2="380.5" y2="339" gradientUnits="userSpaceOnUse">
+<stop stop-color="#38C487"/>
+<stop offset="0.25" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint3_linear_3_1454" x1="380.5" y1="30" x2="380.5" y2="353" gradientUnits="userSpaceOnUse">
+<stop stop-color="#38C487"/>
+<stop offset="0.25" stop-color="#38C487" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

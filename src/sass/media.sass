@@ -1,0 +1,840 @@
+@media screen and (max-width: 1800px)
+   .container
+      padding: 0 40px
+      max-width: 1600px
+   .nav__logo
+      margin-right: 48px
+   h1 
+      font-size: 63px
+      max-width: 650px
+   .about__name:after
+      width: 456px
+   .info__pic
+      width: 64%
+   .energy__text
+      font-size: 22px
+   .energy__name
+      font-size: 30px
+   .energy__per_2
+      right: 14px
+   .energy__per_1
+      width: 247px
+   .energy__content
+      padding-right: 10px
+   .energy__content img
+      bottom: -22px
+      left: -11px
+@media screen and (max-width: 1600px)
+   .container
+      padding: 0 20px
+      max-width: 1400px
+   .header__wrap h1 
+      width: 100%
+      max-width: 596px
+      font-size: 59px
+   .nav__list li a
+      font-size: 21px
+   .sub
+      font-size: 28px
+   h2, .about__title
+      font-size: 59px
+   .about__name
+      font-size: 28px
+   .about__name:after
+      width: 405px
+   .about__item img
+      width: 100%
+   .about__row .about__wrap h3
+      font-size: 40px
+   .income__content h3
+      font-size: 24px
+   .income__content p
+      font-size: 18px
+   .income__info
+      max-width: 408px
+   .info__content
+      padding: 80px 0 80px 48px
+   .info__pic 
+      margin: 110px 0 0 -69px
+   .info__item:after
+      left: -49px
+   .energy__text
+      font-size: 20px
+   .energy__name
+      font-size: 28px
+   .energy__block span
+      width: auto
+      text-align: center
+      font-size: 17px
+   .energy__item:nth-child(2n) .energy__area
+      width: 460px
+      height: 399px
+   .energy__per_1 div
+      margin-bottom: 184px
+   .energy__per_1 p, .energy__per_2 p
+      font-size: 18px
+   .energy__per_2 div
+      margin-bottom: 247px
+   .energy__block p
+      font-size: 20px
+   .energy__item:nth-child(3) .energy__area
+      .energy__pic
+         width: 100%
+         object-fit: contain
+   .energy__item:nth-child(3) .energy__area div
+      left: 14px
+   .energy__item
+      width: 33%
+   .energy__item:nth-child(2), .energy__item:nth-child(3)
+      width: 65.94%  
+@media screen and (max-width: 1400px)
+   .container
+      padding: 0 20px
+      max-width: 1300px
+   .header__pic
+      width: 46%
+   .about__name:after
+      width: 373px
+   .about__name
+      font-size: 26px
+   .income__fig
+      width: 28%
+   .energy__item:nth-child(2n) .energy__area 
+      width: 414px
+      height: 378px
+   .energy__per_1 div
+      margin-bottom: 163px
+   .energy__per_2 div
+      margin-bottom: 226px
+   .energy__item:nth-child(3) .energy__area div 
+      left: -1px
+      bottom: 66px
+@media screen and (max-width: 1300px)
+   .container
+      padding: 0 40px
+      max-width: 1200px
+   .menu-btn 
+      width: 50px
+      height: 50px
+      position: absolute
+      right: 0px
+      top: 0px
+      z-index: 11
+      overflow: hidden
+      background: url(/img/bur1.svg) no-repeat center center
+   .menu 
+      position: fixed
+      top: 0px
+      right: 0
+      width: 100%
+      height: 100%
+      padding: 40px 40px 40px
+      background: white
+      transform: translateX(500%)
+      transition: transform 0.5s
+      z-index: 7
+      overflow: hidden
+      overflow-y: auto
+      &__pic 
+         width: 100%
+         margin-top: 20px
+      &__list
+         li 
+            padding-bottom: 30px
+            margin-bottom: 30px
+            position: relative
+            border-bottom: 1px solid rgb(145, 143, 145)
+            a 
+               color: rgb(145, 143, 145)
+               font-size: 38px
+               font-weight: 400
+               line-height: 125%
+               text-transform: uppercase
+            &:after 
+               content: ""
+               display: block
+               position: absolute
+               right: 0
+               top: 50% 
+               margin-top: -11px
+               width: 22px
+               height: 22px
+               background: url(/img/after.svg) no-repeat center center
+      &__top 
+         align-items: center
+         justify-content: space-between
+         padding-right: 117px
+         padding-top: 20px
+         margin-bottom: 80px
+         position: relative
+         &:after 
+            content: ""
+            width: 500%
+            position: absolute
+            left: -72px
+            bottom: -42px
+            background: rgb(34, 31, 34)
+            height: 1px
+      &__content 
+         align-items: center
+      .nav__socials 
+         a 
+            .svg 
+               path 
+                  fill: #918F91
+            &:hover 
+               .svg 
+                  path 
+                     fill: #221F22
+      .nav__language
+         display: flex
+         width: 190px
+         height: 49px
+         border: 2px solid rgb(34, 31, 34)
+         border-radius: 59px
+         .main_submenu--btn 
+            p 
+               display: flex
+               color: rgb(34, 31, 34)
+               font-size: 18px
+               font-weight: 400
+               line-height: 125%
+               margin-right: 6px
+            .svg 
+               path 
+                  stroke: #221F22
+         .main_submenu--list
+            border: 1px solid rgb(41, 41, 41)
+            left: 29px
+            box-shadow: 0px 24px 56px 0px rgba(167, 174, 186, 0.16)
+      .main_submenu--list:before
+         background: url(/img/vec2.png) no-repeat
+         top: -11px
+         right: 16px
+   .menu.active
+      transform: translateX(0)
+   .menu-btn.active 
+      overflow: visible
+      position: absolute
+      background: url(/img/bur2.svg) no-repeat center center
+   .menu-btn, .menu
+      display: block
+   .nav__list
+      display: none
+   .nav__box 
+      position: relative
+   .nav__content
+      margin-right: 80px
+   .menu-btn 
+      top: 65px
+      right: 49px
+   .header__pic
+      position: relative
+      width: 100%
+      border-radius: 16px
+      height: 500px
+      margin-bottom: 57px
+   .header__content
+      max-width: 100%
+   .header__wrap
+      margin-top: 80px
+   .header__btn
+      margin-bottom: 40px
+   .header__area
+      margin-bottom: 25px
+   .nav__language
+      display: none
+   .about, .energy
+      padding: 50px 0
+   .about__wrap
+      flex-direction: column
+      align-items: center
+   .about__item
+      width: 525px
+      margin-bottom: 50px
+      &:last-child
+         margin-bottom: 0
+   .about__name:after
+      width: 525px
+   .about__name
+      font-size: 32px
+   .about__item:nth-child(2)::before
+      top: 0
+      margin-top: -81px
+      left: 50%
+      margin-left: -55px
+      transform: rotate(90deg)
+   .about__item:nth-child(2)::after
+      top: initial
+      bottom: 0
+      margin-bottom: -81px
+      left: 50%
+      margin-left: -55px
+      transform: rotate(90deg)
+   .income__info
+      max-width: 32%
+   .income__fig
+      width: 30%
+   .info__pic 
+      margin: 178px 0 0 -45px
+      width: 60%
+   .energy__box
+      margin-top: 48px
+   .energy__item:nth-child(2),
+      flex-direction: column
+   .energy__item:first-child
+      .energy__content 
+         height: 100%
+         display: flex
+         flex-direction: column
+   .energy__block
+      margin-top: auto
+   .energy__per_2 div
+      margin: -19px auto 220px
+   .energy__item:nth-child(2), .energy__item:nth-child(3)
+      width: 58%
+   .energy__item
+      width: 40%
+   .energy__content img
+      width: 228px
+      margin-left: 0
+   .energy__item:nth-child(3)
+      align-items: flex-end
+   .energy__item:nth-child(3) .energy__area
+      top: 56px
+   .energy__item:nth-child(3) .energy__area div
+      height: 64px
+      left: -1px
+      bottom: 48px
+   .energy__item:nth-child(3) .energy__area div span
+      font-size: 25px
+   .energy__item:nth-child(3) .energy__area div p
+      font-size: 10px
+   .energy__item:nth-child(2n) .energy__area
+      height: 332px
+   .energy__per_1 div
+      margin-top: 36px
+   .doc
+      padding-top: 50px
+   .doc__box
+      margin-top: 48px
+   .prog
+      margin-bottom: 120px
+   .footer__info
+      width: 100%
+      max-width: 688px
+@media screen and (max-width: 1200px)
+   .container
+      padding: 0 40px
+   .menu__top, .menu__list, .menu__pic, .container
+      max-width: 960px
+   .income__fig
+      display: none
+   .income__info
+      max-width: 45%
+   .energy__item
+      width: 100% !important
+   .energy__item:nth-child(3) .energy__area div 
+      height: 64px
+      left: 49px
+      bottom: 75px
+   .footer__box
+      position: relative
+   .footer__socials 
+      right: 0
+      top: 40px
+      position: absolute
+   .income__content
+      padding-right: 10px
+   .prog .accordeon .accordeon-container
+      flex-direction: column
+   .prog .accordeon .accordeon__item
+      width: 100%
+      margin-bottom: 48px
+      &:last-child
+         margin-bottom: 0
+   .menu__top, .menu__list, .menu__pic
+      max-width: 880px
+   .menu__list
+      margin: 0 auto
+   .menu__top
+      margin: 0 auto 80px
+   .menu__pic
+      display: block
+      margin: 20px auto 0
+@media ( max-width: 991px )
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   .container
+      max-width: 720px
+      padding: 0 14px
+   .header
+      .container
+         padding: 0 40px
+   .menu__top, .menu__list, .menu__pic
+      max-width: 640px
+   .nav__btn
+      margin-right: 0
+      height: 50.5px
+      font-size: 18px
+   .header
+      margin: 15px 41px 55px
+   .nav__box
+      padding: 40px 0 0 26px
+   .nav__content
+      margin-right: 50px
+   .btn
+      padding: 0 23px
+      height: 50.5px
+      font-size: 18px
+   .nav__btn
+      position: relative
+      top: -4px
+   .menu-btn 
+      right: 74px
+      top: 61px
+   .menu
+      padding-top: 33px
+   .header__wrap h1
+      font-size: 56px
+      max-width: 572px
+      margin-bottom: 34px
+   .header__wrap 
+      margin-top: 74px
+      padding-left: 17px
+   .header__pic
+      height: 316px
+      max-width: 569px
+      object-position: 0px -124px
+   .header__text
+      font-size: 20px
+      max-width: 529px
+   .sub 
+      font-size: 26px
+      margin-bottom: 26px
+   h2, .about__title
+      font-size: 48px
+   .about h2
+      padding-bottom: 46px
+   .about__title
+      margin: 49px 0
+   .about__row
+      margin-top: 30px
+      flex-direction: column
+   .about__row .about__wrap
+      width: 100%
+      padding: 28px 27px 38px
+      margin-bottom: 24px
+   .about__row .about__wrap h3
+      font-size: 32px
+      margin-bottom: 44px
+   .about__row .about__wrap h3:after
+      bottom: -21px
+   .income 
+      padding: 29px 0
+   .income h2
+      padding-bottom: 44px
+   .income__box
+      margin-top: 46px
+      flex-direction: column-reverse
+   .income__info
+      max-width: 100%
+   .income__content h3
+      font-size: 28px
+   .income__content p
+      font-size: 20px
+      max-width: 477px
+   .income__item
+      margin-bottom: 77px !important
+      &:last-child
+         margin-bottom: 0 !important
+   .income__info_1
+      margin-top: 77px
+   .info__box
+      flex-direction: column
+      align-items: center
+   .info
+      margin-top: 80px
+      margin-bottom: 48px
+   .info__pic 
+      margin: -8px auto 0
+      width: 100%
+   .info__content 
+      padding: 31px 0 47px 0px
+      border-left: none
+   .info__item:after
+      width: 300%
+      left: -100%
+   .energy__name
+      font-size: 34px
+   .energy__text
+      font-size: 23px
+   .energy__text
+      font-size: 22px
+   .energy__block span
+      font-size: 18px
+   .energy__box
+      max-width: 600px 
+      width: 100%
+      margin: 92px auto 0
+   .energy__block
+      margin-top: 33px
+   .energy__block p
+      font-size: 22px
+   .energy__content
+      max-width: 100%
+   .energy__block span
+      width: max-content
+   .energy__item
+      margin-bottom: 36px
+   .energy__item:nth-child(2n) .energy__area 
+      width: 100%
+      height: 422px
+      margin: 62px auto 0
+   .energy__per_1 div
+      margin-top: 69px
+   .energy__per_1 div
+      margin-bottom: 198px
+   .energy__per_2 div 
+      margin: 9px auto 258px
+   .energy__item
+      flex-direction: column
+      position: relative
+   .energy__content img
+      position: absolute
+      bottom: -50px
+      left: 0
+   .energy__item:nth-child(3)
+      padding-bottom: 0
+   .energy__item:nth-child(3) .energy__area 
+      width: 354px
+      top: 17px
+      margin-top: 22px
+      margin-right: -77px
+   .doc
+      padding-top: 59px
+      padding-bottom: 24px
+   .doc__item
+      width: 100%
+   .doc__item
+      margin-bottom: 26px
+   .footer__logo
+      width: 80px
+      margin-bottom: 69px
+   .footer__socials
+      top: 7px
+   .footer__row
+      padding: 46px 0
+      margin-bottom: 39px
+   .footer__text
+      margin-bottom: 35px
+@media screen and (max-width: 767px)
+   .nav__content
+      display: none
+   .nav__box
+      padding-left: 0
+   .container
+      max-width: 540px
+      padding: 0 20px !important
+   .header
+      border-radius: 0px
+      margin: 0
+   .menu__top, .menu__list, .menu__pic
+      max-width: 500px
+   .menu-btn.active
+      top: 60px
+   .header__copy p
+      overflow: hidden
+      position: relative
+      white-space: nowrap
+      text-overflow: ellipsis
+      max-width: 100%
+   .header__area
+      width: 100%
+   .header__copy
+      width: 100%
+   .about__item
+      width: 100%
+      padding-left: 0
+      padding-right: 0
+   .about__name
+      padding-bottom: 25px
+      margin-bottom: 30px
+      border-bottom: 1px solid #221f22
+      &:after 
+         display: none
+   .about__text, .about__name
+      padding-left: 20px
+      padding-right: 20px
+   .about__item img
+      width: 90%
+   .about__item:nth-child(2)::before 
+      top: 0
+      margin-top: -65px
+      left: 50%
+      margin-left: -40px
+      transform: rotate(90deg)
+      width: 80px
+      height: 80px
+      background-size: 100%
+   .about__item:nth-child(2)::after
+      bottom: 0
+      margin-bottom: -65px
+      left: 50%
+      margin-left: -40px
+      transform: rotate(90deg)
+      width: 80px
+      height: 80px
+      background-size: 100%
+   .about__row .about__wrap
+      .about__text
+         padding: 0
+   h2, .about__title
+      font-size: 32px
+   .sub
+      font-size: 22px
+   .energy__box
+      margin-top: 48px
+   .energy__item:nth-child(2n) .energy__area 
+      width: 100%
+      height: 327px
+      margin: 24px auto 0
+   .energy__per_1 div 
+      margin-bottom: 161px
+      margin-top: 34px
+   .energy__per_2 div 
+      margin: -12px auto 208px
+   .energy__item:nth-child(3) .energy__area
+      width: 266px
+   .energy__item:nth-child(3) .energy__area div 
+      height: 64px
+      left: 11px
+      bottom: 45px
+   .doc
+      padding-top: 30px
+   .doc__box
+      margin-top: 28px
+   .footer__socials, .footer__row
+      display: none
+   .footer__logo
+      width: 47px
+      margin-bottom: 45px
+   .footer__text
+      font-size: 16px
+      padding-top: 45px
+      border-top: 1px solid rgb(217, 217, 217)
+   .footer__info
+      font-size: 18px
+      max-width: 324px 
+      width: 100%
+   .footer__info a
+      display: block
+      width: max-content
+   .prog .accordeon .accordeon__button
+      padding: 30px 120px 30px 39px
+      font-size: 23px
+   .prog .accordeon .panel__text .panel__info
+      font-size: 18px
+      padding-right: 39px
+   .prog .accordeon .accordeon__panel
+      top: -10px
+   .prog .accordeon .accordeon__button:after
+      right: 10px
+   .menu-btn2
+      display: block
+      position: absolute
+      top: 0
+      right: 0
+   .header
+      z-index: initial
+   .menu-btn
+      top: 50px
+   .menu-btn2.active 
+      background: url(/img/bur2.svg) no-repeat center center
+      width: 50px
+      height: 50px
+      position: fixed
+      top: 42px
+      right: 28px
+      z-index: 50
+      img 
+         display: none
+@media screen and (max-width: 576px)
+   button:active, button:focus 
+      outline: none
+   button::-moz-focus-inner 
+      border: 0
+   a:active, a:focus
+      outline: none
+   input, textarea
+      outline: none
+   input:active, textarea:active
+      outline: none
+   input:focusout
+      outline: none
+   .mob 
+      display: block !important
+   .nav__logo
+      width: 47px
+   .menu-btn 
+      right: 29px
+      top: 37px
+   .header__wrap h1
+      font-size: 46px
+      margin-bottom: 28px
+   .header__wrap 
+      margin-top: 44px
+      padding-left: 0
+   .header__pic
+      object-position: 0
+      margin-bottom: 20px
+   .header__text
+      max-width: 324px
+   .menu .nav__language .main_submenu--btn p
+      display: none
+   .menu .nav__language
+      width: 49px
+      border-radius: 50%
+      &:hover 
+         background: rgb(41, 41, 41)
+         .lang_select--selected
+            .svg 
+               path 
+                  stroke: white
+   .main_submenu
+      margin-right: 0
+   .menu
+      padding: 36px 20px
+   .menu__logo
+      width: 47px
+   .menu__top:after
+      display: none
+   .menu__top
+      padding-top: 0
+      margin-bottom: 50px
+      padding-right: 80px
+   .menu__content
+      position: relative
+      top: 4px
+   .menu-btn.active 
+      top: 40px
+      right: 28px
+      position: fixed
+   .nav__socials
+      position: relative
+      top: 3px
+   .menu .nav__language .main_submenu--list
+      left: -25px
+   .menu .main_submenu--list:before
+      right: 83px
+   .main_submenu:hover 
+      .svg 
+         path 
+            stroke: white
+   .menu__list li a
+      font-size: 36px
+   .menu__list li:after
+      margin-top: -27px
+   .header
+      padding-bottom: 36px
+   h2, .about__title
+      font-size: 38px
+   .about__wrap
+      padding: 20px
+   .about__name, .about__text
+      width: auto
+   .about 
+      padding-bottom: 5px
+   .income__item
+      flex-direction: column-reverse
+   .income__content h3
+      margin-top: 24px
+   .income__item
+      margin-bottom: 60px !important
+   .info
+      margin: 40px 0 20px
+   .info__item
+      margin-bottom: 70px
+   .info__item:after
+      bottom: -38px
+   .energy__item
+      padding: 30px 20px
+   .energy__name
+      font-size: 28px
+   .energy__text
+      font-size: 18px
+   .energy__block
+      margin-top: 10px
+   .energy__block p
+      font-size: 16px
+   .energy__block span 
+      width: 100%
+      font-size: 15px
+      max-width: 100%
+      box-sizing: border-box
+   .energy__item:nth-child(2n) .energy__area
+      width: 294px
+      padding: 0
+      height: 233px
+   .energy__per_1 div,  .energy__per_2 div
+      font-size: 7px
+      height: 16px
+      padding: 0 6px
+   .energy__per_1 p, .energy__per_2 p
+      font-size: 11px
+   .energy__per_1 div 
+      margin-bottom: 123px
+      margin-top: 56px
+   .energy__per_2 div 
+      margin: 21px auto 158px
+   .energy__per_2
+      right: 9px
+   .energy__item:nth-child(3) .energy__area 
+      width: 226px
+      top: -20px
+      margin-right: -50px
+   .energy__item:nth-child(3) .energy__area div span
+      font-size: 16px
+   .energy__item:nth-child(3) .energy__area div p
+      font-size: 7px
+   .energy__item:nth-child(3) .energy__area div
+      height: 40px
+      padding: 0 8px
+      border-radius: 6.63px
+      left: 27px
+      bottom: 51px
+   .energy__content img 
+      bottom: -5px
+      left: -111px
+   .energy__item:last-child
+      margin-bottom: 0
+      br 
+         display: none
+   .energy
+      padding-bottom: 35px
+   .doc__item
+      padding: 18px 14px
+      .svg 
+         width: 44px
+         height: 44px
+         flex: 1 0 auto 
+         max-width: 44px
+   .doc__item p
+      font-size: 18px
+   .prog .accordeon
+      margin-top: 30px
+   .prog .accordeon .accordeon__item
+      margin-bottom: 16px
+   .prog .accordeon .panel__text .panel__info
+      padding-right: 0
+      max-width: 226px
+   .prog .accordeon .accordeon__button:after
+      right: 15px
+   .prog
+      margin-bottom: 60px
+   .header__copy
+      .svg 
+         flex: 1 0 auto 
+         max-width: 24px
