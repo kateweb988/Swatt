@@ -93,30 +93,29 @@ input:-moz-placeholder
 .notification 
    display: none
    position: absolute
-   top: -30px
+   top: -60px
    right: 50%
    margin-right: -77px
    z-index: 1000
    width: 154px
    margin-left: 0
-   height: 20px
-   border-radius: 3px
    background: white
-   color: #575757
-   font-size: 13.03px
-   font-weight: 500
-   line-height: 15px
    text-align: center
-   padding-top: 3px
+   padding-top: 8px
+   height: 43px
+   border-radius: 21.5px
+   font-weight: 400
+   font-size: 18px
+   line-height: 150%
+   color: #221F22
    &:after 
-      background: url(/img/pol.svg) no-repeat center center
-      width: 10px
+      background: url(/img/pol.png) no-repeat center center
+      width: 14px
       height: 10px
       position: absolute
-      bottom: -6px
-      transform: rotate(60deg)
+      bottom: -10px
       left: 50%
-      margin-left: -5px
+      margin-left: -7px
       content: ""
       display: block
 .header
@@ -403,10 +402,10 @@ input:-moz-placeholder
       content: ""
       display: flex
       position: absolute
-      width: 100%
+      width: 200%
       height: 50px
-      bottom: -40px
-      left: 0
+      bottom: -34px
+      left: -32px
       background: transparent
    &--selected
       font-weight: 700
@@ -1043,3 +1042,10 @@ input:-moz-placeholder
             border-bottom: 1px solid $or
 .menu-btn2
    display: none
+.main_submenu--list.active 
+   display: block !important
+   opacity: 1 !important
+   visibility: visible !important
+   -webkit-transform: translateX(-50%) translateY(0) !important
+   -ms-transform: translateX(-50%) translateY(0) !important
+   transform: translateX(-50%) translateY(0) !important

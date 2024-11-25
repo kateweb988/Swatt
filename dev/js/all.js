@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   }
 });
+
 document.addEventListener("DOMContentLoaded", () => {
   // Scroll
   $('.go_to').click(function () { // ловим клик по ссылке с классом go_to
@@ -45,6 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     return false; // выключаем стандартное действие
   });
+});
+document.addEventListener("DOMContentLoaded", () => {
+  if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+    $('.main_submenu').click(function () {
+      $('.main_submenu--list').toggleClass('active');
+    });
+  }
 });
 document.addEventListener("DOMContentLoaded", () => {
   $('.menu li a').click(function (event) {
