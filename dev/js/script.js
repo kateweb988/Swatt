@@ -3,6 +3,13 @@ async function fetchLanguageData(lang) {
   const response = await fetch(`languages/${lang}.json`);
   return response.json();
 }
+// Call updateContent() on page load
+window.addEventListener("DOMContentLoaded", async () => {
+  const userPreferredLanguage = localStorage.getItem("language") || "en";
+  const langData = await fetchLanguageData(userPreferredLanguage);
+  updateContent(langData);
+  toggleArabicStylesheet(userPreferredLanguage);
+});
 
 // Function to set the language preference
 function setLanguagePreference(lang) {
@@ -38,10 +45,4 @@ async function changeLanguage(lang) {
 }
 
 
-// Call updateContent() on page load
-window.addEventListener("DOMContentLoaded", async () => {
-  const userPreferredLanguage = localStorage.getItem("language") || "en";
-  const langData = await fetchLanguageData(userPreferredLanguage);
-  updateContent(langData);
-  toggleArabicStylesheet(userPreferredLanguage);
-});
+
